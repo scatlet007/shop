@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<struts>
+    <!--&lt;!&ndash; 修改访问链接的后缀名 &ndash;&gt;
+    <constant name="struts.action.extension" value="do"/>
+    &lt;!&ndash; 设置开发模式，开发时输出更多的错误信息 &ndash;&gt;
+    <constant name="struts.devMode" value="true"/>
+    &lt;!&ndash; 修改ui主题为简单主题 &ndash;&gt;
+    <constant name="struts.ui.theme" value="simple"/>
+    &lt;!&ndash; 设置浏览器是否缓存静态内容。默认值为true(生产环境下使用),开发阶段最好关闭 &ndash;&gt;
+    <constant name="struts.serve.static.browserCache" value="false"/>
+    &lt;!&ndash; 是否允许在OGNL表达式中调用静态方法，默认值为false &ndash;&gt;
+    <constant name="struts.ognl.allowStaticMethodAccess" value="true"/>
+-->
+    <include file="config/struts-admin.xml"/>
+
+    <include file="config/struts-home.xml"/>
+
+    <include file="config/struts-user.xml"/>
+</struts>

@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<!DOCTYPE struts PUBLIC
+        "-//Apache Software Foundation//DTD Struts Configuration 2.3//EN"
+        "http://struts.apache.org/dtds/struts-2.3.dtd">
+
+<!--suppress ALL -->
+<struts>
+    <package name="Admin" namespace="/admin/home" extends="struts-default,json-default">
+
+        <action name="*Manager" class="com.scatlet.web.action.ManagerAction" method="{1}">
+            <result name="SUCCESS">/WEB-INF/pages/admin/manager/index.jsp</result>
+        </action>
+    </package>
+</struts>

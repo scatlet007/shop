@@ -1,0 +1,47 @@
+.content{
+    width:550px;
+    margin-top: 175px;
+    margin-left:auto;
+    margin-right: auto;
+    padding: inherit;
+    font-size: 14px;
+    text-align:center;
+    border: #ccc solid 1px;
+}
+.top-toolbar{
+    margin-bottom: 10px;
+}
+.top-toolbar {
+    margin-right: 10px;
+}
+.top-toolbar a{
+    padding-left:10px;
+    padding-right: 10px;
+    height: 34px;
+    background-color: #e2e2e2;
+    text-decoration: none;
+    border:2px #ccc solid;
+}
+.top-toolbar a:hover{
+    padding-left:10px;
+    padding-right: 10px;
+    height: 34px;
+    background-color:burlywood;
+    text-decoration: none;
+    border:2px #ccc solid;
+}
+.main-info{
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+}
+.main-info span{
+    margin-right: 15px;
+    margin-top: 24px;
+}
+.main-info span input{
+    margin-top: 24px;
+}
+.main-info span button{
+    margin-top: 24px;
+}

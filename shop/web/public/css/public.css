@@ -1,0 +1,103 @@
+@charset "utf-8";
+/* CSS Document */
+#contet{
+	margin-left:auto;
+	margin-right:auto;
+	font-size:12px;
+}
+.contet_bar{/*提示条信息样式*/
+	margin-left:auto;
+	margin-right:auto;
+	width:1224px;
+	height:30px;
+	line-height:30px;
+	padding-left:20px;
+	background-color:#e2e2e2;
+}
+.contet_center_radio{/*中间显示单项选择的块*/
+	margin-left:50px;
+	width:1024px;
+	height:30px;
+	margin-top:10px;
+}
+.contet_center_radio span{
+	margin-right:50px;
+	line-height:30px;
+}
+.contet_info{/*中间的信息显示块*/
+	margin-left:50px;
+	width:1024px;
+}
+.contet_info span{
+	margin-right:20px;
+	margin-top:20px;
+	height:24px;
+	line-height:24px;
+}
+.contet_info span input{
+	width:160px;
+	height:24px;
+	margin-top:10px;
+	line-height:24px;
+	border:#CCC solid 2px;
+}
+.contet_info span select{
+	width:90px;
+	height:24px;
+	margin-top:10px;
+	line-height:24px;
+	border:#CCC solid 2px;
+}
+.contet_info span button{
+	width:60px;
+	height:30px;
+	margin-top:10px;
+	line-height:30px;
+	font-size:16px;
+	border:#CCC solid 2px;
+}
+.contet_lower{/*底部显示信息的块*/
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:10px;
+	width:1224px;
+}
+.contet_bar_list{/*提示信息条中的链接文字样式*/
+	float:right;
+	margin-right:20px;
+}
+.contet_bar_list ul{
+	padding:0px;
+	margin:0px;
+	list-style:none;
+}
+.contet_bar_list ul li{
+	margin-left:10px;
+	float:left;
+}
+.contet_bar_list ul li a{
+	text-decoration:none;
+}
+.contet_bar_list ul li a:hover{
+	color:#3FC;
+	font-size:14px;
+}
+.contet_table{	/*显示信息的表格样式*/
+	margin-left:auto;
+	margin-right:auto;
+	margin-top:15px;
+}
+.contet_table tr td{
+	border:#CCC solid 1px;
+	padding-left:10px;
+	padding-right:10px;
+	height:30px;
+	line-height:30px;
+}
+.contet_lower_bottom{/*底部页码信息显示*/
+	float:right;
+	width:20px;
+	width:500px;
+	margin-top:20px;
+	text-align:right;
+}
